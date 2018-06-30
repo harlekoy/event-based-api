@@ -5,7 +5,7 @@ namespace Harlekoy\Traits;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
-trait ApiRoutes
+trait ControllerRoutes
 {
     /**
      * Display a listing of the resource.

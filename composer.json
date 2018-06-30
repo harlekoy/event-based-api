@@ -18,5 +18,12 @@
     },
     "scripts": {
         "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harlekoy\\ServiceProvider"
+            ]
+        }
     }
 }

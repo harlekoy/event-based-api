@@ -1,0 +1,22 @@
+{
+    "name": "harlekoy/event-based-api",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harlequin Doyon",
+            "email": "harlequin.doyon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Harlekoy\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
